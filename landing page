@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a4b24e14e3.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container">
+        <video autoplay muted loop>
+            <source src="production ID_5025080.mp4" type="video/mp4">
+          </video>
+        <header>
+            <h1 class="main-head">Sparkle</h1>
+            <ul class="main-ul">
+                <li>Home</li>
+                <li>Subscribe</li>
+            </ul>
+        </header>
+        <p class="main-p">An IMPACT on the technology is <span>COMING SOON</span> Stay tuned!</p>
+        <ul class="excep">
+            <li><i class="fa-brands fa-facebook"></i></li>
+            <li><i class="fa-brands fa-square-instagram"></i></li>
+            <li><i class="fa-brands fa-twitter"></i></li>
+        </ul>
+    </div>
+    <div class="cont2">
+        <i class="fa-solid fa-arrow-down mid-arr"></i>
+        <div class="inner">
+            <p class="about">About the <span>content</span></p>
+            <p class="info">Hello viewers... This is just a landing page. Before digging a bit deeper, let me remind you that "First come first serve" is an universal following. Alas!A lot is yet to come. To notice everything,you should be the first, to be the one, Subscribe now & Get ready for the <b style="color: rgb(250, 172, 27);">sparkle</b> folks!</p>
+            <form action="no-action.php">
+                <label for="">Email *</label>
+                <br>
+                <input type="email" name="" id="">
+                <button>subscribe</button>
+            </form>
+        </div>
+        <div class="last">
+        <ul>
+            <li><i class="fa-brands fa-facebook"></i></li>
+            <li><i class="fa-brands fa-square-instagram"></i></li>
+            <li><i class="fa-brands fa-twitter"></i></li>
+        </ul>
+        <p class="last-p">
+            Releasing @2023 by Sparkle &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Proudly created with desire by  <span class="me">Krishna</span>
+            </p>
+        </div>
+        
+    </div>
+</body>
+</html>
