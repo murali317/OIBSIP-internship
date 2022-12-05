@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a4b24e14e3.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="container1">
+        <nav class="main-nav">
+            <h1>Port <span class="main-span">folio</span></h1>
+            <ul class="my-ul">
+                <li class="main-li"><a href="#">Home</a>  </li>
+                <li class="main-li"><a href="#">About</a> </li>
+                <li class="main-li"><a href="#">Services</a> </li>
+                <li class="main-li"><a href="#">Contact</a> </li>
+            </ul>
+            <button class="main-btn">Resume</button>
+        </nav>
+
+        <div class="typing-div">
+        <h1 class="typing"> <span id="my-id"> This is <span id="krishna"> Krishna </span> </span> <span class="my-span"> &lt; &#47; web developer &gt; </span></h1>
+        </div>
+    </div>
+
+    <div class="two">
+        <h1 style="font-size: 2em;">Hello there, Nice to meet you.</h1>
+        <p class="about">I am a passionate individual having keen interest on front end technologies and have been an autodidact. I build beautiful web sites for my lovely clients using my skillset. I have done some cources relating to my skills from various certification platforms. Python is my favourite programming language in which I earned 5 star badge in the Hackerrank platform. Finally looking forward to collab with my future clients and assist them with my skills in the web development field.</p>
+    </div>
+    <div class="three">
+        <h1 class="skills-h1">Skills I am equipped with:</h1>
+        <ul class="skills-ul">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Javascript</li>
+            <li>Python</li>
+            <li>C</li>
+            <li>Mysql</li>
+        </ul>
+    </div>
+    <div class="four">
+        <h1 resume-h1>Here's my Resume</h1>
+        <img src="resume.jpg" alt="not found">
+    </div>
+    <div class="last">
+        <h1>Let's talk</h1>
+        <form action="no-action.php">
+            <label for="">Name</label><br>
+            <input type="text" required><br>
+
+            <label for="">Profession</label><br>
+            <input type="text"><br>
+
+            <label for="">Place</label><br>
+            <input type="text"><br>
+
+            <label for="">Age</label><br>
+            <input type="number"><br>
+            
+            <label for="">Email</label> <br>
+            <input type="email" name="" id="" required> <br>
+
+            <button>Submit</button>
+
+            <!-- <input type="radio" name="" id="">
+            <label for="HTML">MASCULINE</label>
+            <input type="radio" name="" id="">
+            <label for="HTML">FEMININE</label>
+            <input type="radio" name="" id="">
+            <label for="HTML">OTHERS</label> -->
+        </form>
+    </div>
+    <footer>
+        <div>
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-linkedin"></i>
+            <i class="fa-brands fa-twitter"></i>
+        </div>
+    </footer>
+
+</body>
+</html>
